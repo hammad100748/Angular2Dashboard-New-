@@ -1,0 +1,18 @@
+{
+  "name": "cronjob",
+  "version": "1.0.0",
+  "description": "Sheduler For Checking and Reporting Errors",
+  "main": "checkdevices.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hammad Ali",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "mysql": "^2.13.0",
+    "node-schedule": "^1.2.3",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
